@@ -175,7 +175,7 @@ ul li::marker {
   }
 }
 
-@media (min-width: 360px) {
+@media (device-width: 360px) {
   header h1 {
     color: white;
     font-size: 15px;
