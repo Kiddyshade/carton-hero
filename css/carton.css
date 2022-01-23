@@ -178,13 +178,13 @@ ul li::marker {
 @media (device-width: 360px) {
   header h1 {
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
     padding-left: 10px;
   }
 
   h2 {
-    font-size: 15px;
+    font-size: 18px;
     color: #e70c19;
     margin: 10px 0 10px;
   }
@@ -192,18 +192,18 @@ ul li::marker {
   main .span {
     position: absolute;
     right: 43px;
-    top: 22px;
+    top: 17px;
     height: 45px;
     padding-bottom: 0;
     font-size: 30px;
-  }
+}
 
   main p.resizing {
     margin: 15px 0;
   }
 
   main h2.h2-resize {
-    font-size: 13px;
+    font-size: 18px;
   }
 
   p {
@@ -214,21 +214,21 @@ ul li::marker {
 
   main span {
     position: absolute;
-    right: 27px;
-    bottom: 473px;
+    right: 108px;
+    bottom: 492px;
     padding-bottom: 0;
     font-size: 28px;
-  }
+}
 
-  main .friend-span {
+main .friend-span {
     position: absolute;
-    right: 58px;
-    bottom: 306px;
+    right: 30px;
+    bottom: 307px;
     height: 36px;
     width: 36px;
     padding-bottom: 0;
     font-size: 25px;
-  }
+}
   main {
     position: relative;
     max-width: 800px;
