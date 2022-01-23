@@ -7,6 +7,10 @@ body {
   line-height: 30px;
 }
 
+p{
+    font-family: 'Quicksand', sans-serif;;
+}
+
 h1,
 h2 {
   font-family: 'Press Start 2P', cursive;
@@ -169,4 +173,66 @@ ul li::marker {
     padding-bottom: 0;
     font-size: 30px;
   }
+}
+
+@media(max-width: 320px){
+    header h1 {
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        padding-left: 10px;
+    }
+
+    h2 {
+        font-size: 15px;
+        color: #e70c19;
+        margin: 10px 0 10px;
+    }
+
+    main .span {
+        position: absolute;
+        right: 43px;
+        top: 22px;
+        height: 45px;
+        padding-bottom: 0;
+        font-size: 30px;
+    }
+
+    main p.resizing{
+        margin: 15px 0;
+    }
+
+    main h2.h2-resize{
+        font-size: 13px;
+    }
+
+    p {
+        line-height: 27px;
+        font-size: 17px;
+        margin: 10px 0;
+    }
+
+    main span {
+        position: absolute;
+        right: 27px;
+        bottom: 473px;
+        padding-bottom: 0;
+        font-size: 28px;
+    }
+
+    main .friend-span {
+        position: absolute;
+        right: 58px;
+        bottom: 306px;
+        height: 36px;
+        width: 36px;
+        padding-bottom: 0;
+        font-size: 25px;
+    }
+    main {
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 16px;
+    }
 }
