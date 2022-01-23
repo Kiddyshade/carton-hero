@@ -115,7 +115,7 @@ ul li::marker {
   content: '\1F99A';
 }
 
-@media (max-device-width: 480px) {
+@media (max-width: 480px) {
   /* Styles */
   header img {
     border-radius: 50%;
