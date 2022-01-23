@@ -115,7 +115,7 @@ ul li::marker {
   content: '\1F99A';
 }
 
-@media (min-device-width: 320px) and (max-device-width: 480px) {
+@media (max-device-width: 480px) {
   /* Styles */
   header img {
     border-radius: 50%;
@@ -146,9 +146,9 @@ ul li::marker {
 
   main span {
     position: absolute;
-    right: 145px;
-    bottom: 418px;
-    padding-bottom: 24px;
+    right: 133px;
+    bottom: 469px;
+    padding-bottom: 0;
     font-size: 40px;
   }
 
